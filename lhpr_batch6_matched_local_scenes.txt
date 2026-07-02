@@ -1,0 +1,247 @@
+LHPR-VLN Batch 6 Matched Tasks With Local HM3D Scenes
+======================================================
+
+Command used:
+
+(habitat-display) js@rog:~/Desktop/LHVLN_scene$ python ./examples/find_tasks_with_local_scenes.py
+
+Original summary:
+
+Local HM3D scene folders found: 100
+
+Matched LHPR-VLN tasks with local HM3D scenes:
+================================================================================
+
+[0] Scene: 00843-DYehNKdT76V
+Instruction: Could you take the kettle from the kitchen and place it on the coffee table in the living room
+Path: data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room
+
+[1] Scene: 00861-GLAQ4DNUx5U
+Instruction: Can you bring the cardboard box from the bedroom to my desk in the office
+Path: data/lhpr_extracted/task/batch_6/2/Can you bring the cardboard box from the bedroom to my desk in the office
+
+[2] Scene: 00820-mL8ThkuaVTM
+Instruction: Please take the book from the kitchen to the bed table in the bedroom
+Path: data/lhpr_extracted/task/batch_6/2/Please take the book from the kitchen to the bed table in the bedroom
+
+[3] Scene: 00861-GLAQ4DNUx5U
+Instruction: Could you please take the bag from the bedroom to the table in the bedroom, and then grab the cardboard box from there
+Path: data/lhpr_extracted/task/batch_6/3/Could you please take the bag from the bedroom to the table in the bedroom, and then grab the cardboard box from there
+
+[4] Scene: 00873-bxsVRursffK
+Instruction: Could you please take the backpack from a Bedroom to the bedside lamp in another Bedroom, then pick up the book from there
+Path: data/lhpr_extracted/task/batch_6/3/Could you please take the backpack from a Bedroom to the bedside lamp in another Bedroom, then pick up the book from there
+
+================================================================================
+Total matched tasks: 5
+Total missing-scene tasks: 36
+
+
+Enriched Location Details For The 5 Matched Tasks
+=================================================
+
+[0] Kettle -> Coffee Table Task
+------------------------------
+
+Scene:
+00843-DYehNKdT76V
+
+Instruction:
+Could you take the kettle from the kitchen and place it on the coffee table in the living room
+
+Task config:
+data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/config.json
+
+Task folder:
+data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room
+
+Local HM3D scene folder:
+data/scene_datasets/hm3d/val/00843-DYehNKdT76V
+
+Local scene files:
+data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb
+data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh
+data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.txt
+
+Robot:
+spot
+
+Start position:
+[-3.6155807971954346, 3.3365070819854736, -5.284048080444336]
+
+Objects and regions:
+kettle -> Region 8: Kitchen
+coffee table -> Region 7: Living room
+
+Subtasks:
+Move_to('kettle_8')
+Grab('kettle')
+Move_to('coffee table_7')
+Release('kettle')
+
+
+[1] Cardboard Box -> Desk Task
+------------------------------
+
+Scene:
+00861-GLAQ4DNUx5U
+
+Instruction:
+Can you bring the cardboard box from the bedroom to my desk in the office
+
+Task config:
+data/lhpr_extracted/task/batch_6/2/Can you bring the cardboard box from the bedroom to my desk in the office/config.json
+
+Task folder:
+data/lhpr_extracted/task/batch_6/2/Can you bring the cardboard box from the bedroom to my desk in the office
+
+Local HM3D scene folder:
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U
+
+Local scene files:
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.basis.glb
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.basis.navmesh
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.semantic.txt
+
+Robot:
+spot
+
+Start position:
+[-1.8639116287231445, -1.5928866863250732, 5.959535598754883]
+
+Objects and regions:
+cardboard box -> Region 19: Bedroom
+desk -> Region 16: Office
+
+Subtasks:
+Move_to('cardboard box_19')
+Grab('cardboard box')
+Move_to('desk_16')
+Release('cardboard box')
+
+
+[2] Book -> Bed Table Task
+--------------------------
+
+Scene:
+00820-mL8ThkuaVTM
+
+Instruction:
+Please take the book from the kitchen to the bed table in the bedroom
+
+Task config:
+data/lhpr_extracted/task/batch_6/2/Please take the book from the kitchen to the bed table in the bedroom/config.json
+
+Task folder:
+data/lhpr_extracted/task/batch_6/2/Please take the book from the kitchen to the bed table in the bedroom
+
+Local HM3D scene folder:
+data/scene_datasets/hm3d/val/00820-mL8ThkuaVTM
+
+Local scene files:
+data/scene_datasets/hm3d/val/00820-mL8ThkuaVTM/mL8ThkuaVTM.basis.glb
+data/scene_datasets/hm3d/val/00820-mL8ThkuaVTM/mL8ThkuaVTM.basis.navmesh
+data/scene_datasets/hm3d/val/00820-mL8ThkuaVTM/mL8ThkuaVTM.semantic.txt
+
+Robot:
+spot
+
+Start position:
+[1.6799848079681396, 0.6276538372039795, -2.2079033851623535]
+
+Objects and regions:
+book -> Region 7: Kitchen
+bed table -> Region 8: Bedroom
+
+Subtasks:
+Move_to('book_7')
+Grab('book')
+Move_to('bed table_8')
+Release('book')
+
+
+[3] Bag -> Table, Then Cardboard Box Task
+-----------------------------------------
+
+Scene:
+00861-GLAQ4DNUx5U
+
+Instruction:
+Could you please take the bag from the bedroom to the table in the bedroom, and then grab the cardboard box from there
+
+Task config:
+data/lhpr_extracted/task/batch_6/3/Could you please take the bag from the bedroom to the table in the bedroom, and then grab the cardboard box from there/config.json
+
+Task folder:
+data/lhpr_extracted/task/batch_6/3/Could you please take the bag from the bedroom to the table in the bedroom, and then grab the cardboard box from there
+
+Local HM3D scene folder:
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U
+
+Local scene files:
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.basis.glb
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.basis.navmesh
+data/scene_datasets/hm3d/val/00861-GLAQ4DNUx5U/GLAQ4DNUx5U.semantic.txt
+
+Robot:
+stretch
+
+Start position:
+[-1.8639116287231445, -1.5928866863250732, 5.959535598754883]
+
+Objects and regions:
+bag -> Region 19: Bedroom
+table -> Region 19: Bedroom
+cardboard box -> Region 19: Bedroom
+
+Subtasks:
+Move_to('bag_19')
+Grab('bag')
+Move_to('table_19')
+Release('bag')
+Move_to('cardboard box_19')
+Grab('cardboard box')
+
+
+[4] Backpack -> Bedside Lamp, Then Book Task
+--------------------------------------------
+
+Scene:
+00873-bxsVRursffK
+
+Instruction:
+Could you please take the backpack from a Bedroom to the bedside lamp in another Bedroom, then pick up the book from there
+
+Task config:
+data/lhpr_extracted/task/batch_6/3/Could you please take the backpack from a Bedroom to the bedside lamp in another Bedroom, then pick up the book from there/config.json
+
+Task folder:
+data/lhpr_extracted/task/batch_6/3/Could you please take the backpack from a Bedroom to the bedside lamp in another Bedroom, then pick up the book from there
+
+Local HM3D scene folder:
+data/scene_datasets/hm3d/val/00873-bxsVRursffK
+
+Local scene files:
+data/scene_datasets/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.glb
+data/scene_datasets/hm3d/val/00873-bxsVRursffK/bxsVRursffK.basis.navmesh
+data/scene_datasets/hm3d/val/00873-bxsVRursffK/bxsVRursffK.semantic.txt
+
+Robot:
+spot
+
+Start position:
+[-5.16827392578125, -2.975324869155884, -0.6520857214927673]
+
+Objects and regions:
+backpack -> Region 5: Bedroom
+bedside lamp -> Region 3: Bedroom
+book -> Region 3: Bedroom
+
+Subtasks:
+Move_to('backpack_5')
+Grab('backpack')
+Move_to('bedside lamp_3')
+Release('backpack')
+Move_to('book_3')
+Grab('book')
+

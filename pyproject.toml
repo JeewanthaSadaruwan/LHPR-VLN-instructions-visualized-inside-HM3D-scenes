@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lhpr-vln-replay"
+version = "0.1.0"
+description = "LHPR-VLN trajectory replay tools using Habitat-Sim"
+requires-python = ">=3.9"
+dependencies = [
+    "PyYAML",
+    "numpy",
+    "opencv-python"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

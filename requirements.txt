@@ -1,0 +1,6 @@
+habitat-sim
+huggingface-hub
+numpy
+Pillow
+PyYAML
+

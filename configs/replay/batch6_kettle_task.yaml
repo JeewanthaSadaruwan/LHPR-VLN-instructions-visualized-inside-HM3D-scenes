@@ -1,0 +1,34 @@
+name: "batch6_kettle_to_coffee_table"
+
+batch: "batch_6"
+category: "2"
+
+instruction: "Could you take the kettle from the kitchen and place it on the coffee table in the living room"
+
+task_dir: "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room"
+
+scene:
+  scene_id: "00843-DYehNKdT76V"
+  glb: "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb"
+  navmesh: "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh"
+
+robot:
+  type: "simple_habitat_agent"
+  use_urdf: false
+
+start:
+  position: [-3.6155807971954346, 3.3365070819854736, -5.284048080444336]
+  yaw: -90
+
+replay:
+  source: "action_folders"
+  trial_folder: "success/trial_1"
+  skip_initial_stop: false
+  skip_stop_actions: false
+  save_video: false
+  save_frames: false
+
+pose_replay:
+  source: "task_json"
+  yaw_sign: 1.0
+  yaw_offset: 180.0

@@ -1,0 +1,25 @@
+agent:
+  height: 1.25
+
+sensor:
+  rgb:
+    enabled: true
+    uuid: "color_sensor"
+    width: 960
+    height: 540
+    position: [0.0, 1.25, 0.0]
+
+actions:
+  move_forward:
+    amount: 0.25
+
+  turn_left:
+    amount: 30.0
+
+  turn_right:
+    amount: 30.0
+
+viewer:
+  window_name: "LHPR-VLN Habitat Replay"
+  fps: 5
+  show_text_overlay: true

@@ -1,0 +1,46 @@
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local/system files
+.DS_Store
+Thumbs.db
+
+# Large local datasets
+data/lhpr_raw/
+data/lhpr_extracted/
+data/scene_datasets/
+
+# Generated outputs
+outputs/frames/
+outputs/replay_videos/
+outputs/reports/
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.mp4
+outputs/*.avi
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+

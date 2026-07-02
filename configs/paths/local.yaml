@@ -1,0 +1,12 @@
+project_root: "."
+
+lhpr_task_root: "data/lhpr_extracted/task"
+lhpr_step_task_root: "data/lhpr_extracted/step_task"
+lhpr_episode_task_root: "data/lhpr_extracted/episode_task"
+
+hm3d_root: "data/scene_datasets/hm3d"
+
+output_root: "outputs"
+report_root: "outputs/reports"
+frame_root: "outputs/frames"
+video_root: "outputs/replay_videos"
