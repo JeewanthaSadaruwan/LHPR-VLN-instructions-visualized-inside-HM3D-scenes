@@ -8,6 +8,17 @@ The current focus is **dataset understanding and trajectory visualization**, not
 
 ---
 
+## Demo
+
+![Batch 6 kettle-to-coffee-table replay](assets/batch6_kettle_replay.gif)
+
+```text
+Instruction:
+Could you take the kettle from the kitchen and place it on the coffee table in the living room
+```
+
+---
+
 ## Repository Name
 
 ```text
