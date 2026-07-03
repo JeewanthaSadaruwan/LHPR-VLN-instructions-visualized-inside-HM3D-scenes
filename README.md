@@ -10,7 +10,11 @@ The current focus is **dataset understanding and trajectory visualization**, not
 
 ## Demo
 
-![Batch 6 kettle-to-coffee-table replay](assets/batch6_kettle_replay.gif)
+<img
+  src="assets/batch6_kettle_replay.gif"
+  alt="Batch 6 kettle-to-coffee-table replay"
+  width="100%"
+/>
 
 ```text
 Instruction:
