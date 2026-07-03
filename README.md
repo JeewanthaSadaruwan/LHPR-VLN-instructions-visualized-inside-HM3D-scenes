@@ -155,10 +155,6 @@ LHVLN_scene/
 │   ├── hm3d_dataset_explanation.md
 │   └── lhpr_dataset_understanding.md
 │
-├── data/
-│   ├── lhpr_extracted/
-│   └── scene_datasets/
-│
 └── outputs/
     ├── frames/
     ├── reports/
@@ -181,7 +177,7 @@ LHVLN_scene/
 | `examples/` | Exploratory scripts used for downloading, inspecting, matching, and understanding LHPR/HM3D data |
 | `tools/` | Small helper utilities for checking task integrity and extracting reports |
 | `notes/` | Learning notes about HM3D and LHPR-VLN dataset structure |
-| `data/` | Local dataset location. This is ignored by Git because the files are large |
+| `/home/js/Desktop/datasets/` | Shared local dataset location outside this repository |
 | `outputs/` | Generated reports, frames, videos, and verification images |
 
 ---
@@ -192,18 +188,15 @@ This repository does **not** include the LHPR-VLN dataset or HM3D scenes.
 
 You must download them separately and place them under:
 
-```text| `README.md` | Main project explanation, setup notes, and usage guide |
-| `.gitignore` | Prevents large datasets, generated outputs, caches, and environment files from being committed |
-| `pyproject.toml` | Python package metadata and editable-install configuration |
-| `requirements.txt` | Lightweight dependency list for quick setup |
-data/lhpr_extracted/
-data/scene_datasets/hm3d/
+```text
+/home/js/Desktop/datasets/lhpr/
+/home/js/Desktop/datasets/hm3d/
 ```
 
 Expected LHPR-VLN structure:
 
 ```text
-data/lhpr_extracted/
+/home/js/Desktop/datasets/lhpr/
 ├── task/
 ├── step_task/
 └── episode_task/
@@ -211,11 +204,8 @@ data/lhpr_extracted/
 
 Expected HM3D structure for the current example:
 
-```text| `README.md` | Main project explanation, setup notes, and usage guide |
-| `.gitignore` | Prevents large datasets, generated outputs, caches, and environment files from being committed |
-| `pyproject.toml` | Python package metadata and editable-install configuration |
-| `requirements.txt` | Lightweight dependency list for quick setup |
-data/scene_datasets/hm3d/val/00843-DYehNKdT76V/
+```text
+/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/
 ├── DYehNKdT76V.basis.glb
 ├── DYehNKdT76V.basis.navmesh
 ├── DYehNKdT76V.semantic.glb
@@ -299,11 +289,11 @@ Example:
 ```yaml
 project_root: "."
 
-lhpr_task_root: "data/lhpr_extracted/task"
-lhpr_step_task_root: "data/lhpr_extracted/step_task"
-lhpr_episode_task_root: "data/lhpr_extracted/episode_task"
+lhpr_task_root: "/home/js/Desktop/datasets/lhpr/task"
+lhpr_step_task_root: "/home/js/Desktop/datasets/lhpr/step_task"
+lhpr_episode_task_root: "/home/js/Desktop/datasets/lhpr/episode_task"
 
-hm3d_root: "data/scene_datasets/hm3d"
+hm3d_root: "/home/js/Desktop/datasets/hm3d"
 
 output_root: "outputs"
 report_root: "outputs/reports"
@@ -377,12 +367,12 @@ category: "2"
 
 instruction: "Could you take the kettle from the kitchen and place it on the coffee table in the living room"
 
-task_dir: "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room"
+task_dir: "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room"
 
 scene:
   scene_id: "00843-DYehNKdT76V"
-  glb: "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb"
-  navmesh: "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh"
+  glb: "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb"
+  navmesh: "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh"
 
 robot:
   type: "simple_habitat_agent"
@@ -848,9 +838,7 @@ env/
 *.conda
 
 # Data
-data/lhpr_raw/
-data/lhpr_extracted/
-data/scene_datasets/
+data/
 
 # Outputs
 outputs/

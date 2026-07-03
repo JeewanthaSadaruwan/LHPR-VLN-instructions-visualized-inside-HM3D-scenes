@@ -10,9 +10,9 @@ FULL_INSTRUCTION = "Bring the toy from the bathroom to the table in the laundry 
 # If you do not know, keep it as None
 STAGE_CATEGORY = "2"
 
-BATCH_ROOT = Path("data/lhpr_extracted/task/batch_6")
-STEP_TASK_ROOT = Path("data/lhpr_extracted/step_task/batch_6")
-HM3D_ROOT = Path("data/scene_datasets/hm3d/val")
+BATCH_ROOT = Path("/home/js/Desktop/datasets/lhpr/task/batch_6")
+STEP_TASK_ROOT = Path("/home/js/Desktop/datasets/lhpr/step_task/batch_6")
+HM3D_ROOT = Path("/home/js/Desktop/datasets/hm3d/val")
 
 REQUIRED_IMAGES = [
     "front.png",

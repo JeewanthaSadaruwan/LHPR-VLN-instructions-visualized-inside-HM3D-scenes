@@ -24,10 +24,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Large local datasets
-data/lhpr_raw/
-data/lhpr_extracted/
-data/scene_datasets/
+# Large local datasets, if copied back into this repository
+data/
 
 # Generated outputs
 outputs/frames/
@@ -43,4 +41,3 @@ outputs/*.avi
 *.log
 *.tmp
 *.bak
-

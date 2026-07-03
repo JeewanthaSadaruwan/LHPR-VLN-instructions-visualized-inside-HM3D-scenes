@@ -44,7 +44,7 @@ conda activate habitat-display
 LHPR-VLN raw downloaded files:
 
 ```text
-data/lhpr_raw/
+/home/js/Desktop/datasets/lhpr_raw/
 ├── batch_6.zip
 ├── step_task.zip
 ├── task.zip
@@ -54,7 +54,7 @@ data/lhpr_raw/
 Extracted dataset:
 
 ```text
-data/lhpr_extracted/
+/home/js/Desktop/datasets/lhpr/
 ├── task/
 ├── step_task/
 └── episode_task/
@@ -97,7 +97,7 @@ So Batch 6 was selected because it is enough for the first dataset-understanding
 After extraction, the LHPR-VLN data has three important folders:
 
 ```text
-data/lhpr_extracted/
+/home/js/Desktop/datasets/lhpr/
 ├── task/
 ├── step_task/
 └── episode_task/
@@ -114,7 +114,7 @@ The `task/` folder contains the **main long-horizon task data**.
 For Batch 6:
 
 ```text
-data/lhpr_extracted/task/batch_6/
+/home/js/Desktop/datasets/lhpr/task/batch_6/
 ├── 2/
 ├── 3/
 └── 4/
@@ -157,7 +157,7 @@ Bring the toy from the bathroom to the table in the laundry room
 This task is stored in:
 
 ```text
-data/lhpr_extracted/task/batch_6/2/
+/home/js/Desktop/datasets/lhpr/task/batch_6/2/
 Bring the toy from the bathroom to the table in the laundry room/
 ```
 
@@ -631,7 +631,7 @@ The `step_task/` folder contains a collected index of the navigation-subtask JSO
 For Batch 6:
 
 ```text
-data/lhpr_extracted/step_task/batch_6/
+/home/js/Desktop/datasets/lhpr/step_task/batch_6/
 ├── <navigation instruction>.json
 ├── <navigation instruction>.json
 └── ...
@@ -682,7 +682,7 @@ The `episode_task/` folder contains compressed episode-level metadata.
 For Batch 6:
 
 ```text
-data/lhpr_extracted/episode_task/batch_6.json.gz
+/home/js/Desktop/datasets/lhpr/episode_task/batch_6.json.gz
 ```
 
 This is useful later when connecting the dataset to Habitat-style episodes or evaluation pipelines.
@@ -789,7 +789,7 @@ folder category number × number of tasks
 Instead, trust the actual files:
 
 ```bash
-find data/lhpr_extracted/task/batch_6 -path "*/success/trial_1/*.json" ! -name "task.json" | wc -l
+find /home/js/Desktop/datasets/lhpr/task/batch_6 -path "*/success/trial_1/*.json" ! -name "task.json" | wc -l
 ```
 
 This gave:
@@ -801,7 +801,7 @@ This gave:
 And:
 
 ```bash
-find data/lhpr_extracted/step_task/batch_6 -name "*.json" | wc -l
+find /home/js/Desktop/datasets/lhpr/step_task/batch_6 -name "*.json" | wc -l
 ```
 
 also gave:
@@ -1013,51 +1013,51 @@ This reasoning can guide a VLN action model.
 Check top-level extracted folders:
 
 ```bash
-find data/lhpr_extracted -maxdepth 1 -type d
+find /home/js/Desktop/datasets/lhpr -maxdepth 1 -type d
 ```
 
 Check Batch 6 categories:
 
 ```bash
-find data/lhpr_extracted/task/batch_6 -maxdepth 1 -type d
+find /home/js/Desktop/datasets/lhpr/task/batch_6 -maxdepth 1 -type d
 ```
 
 Count full tasks in each category:
 
 ```bash
-find data/lhpr_extracted/task/batch_6/2 -mindepth 1 -maxdepth 1 -type d | wc -l
-find data/lhpr_extracted/task/batch_6/3 -mindepth 1 -maxdepth 1 -type d | wc -l
-find data/lhpr_extracted/task/batch_6/4 -mindepth 1 -maxdepth 1 -type d | wc -l
+find /home/js/Desktop/datasets/lhpr/task/batch_6/2 -mindepth 1 -maxdepth 1 -type d | wc -l
+find /home/js/Desktop/datasets/lhpr/task/batch_6/3 -mindepth 1 -maxdepth 1 -type d | wc -l
+find /home/js/Desktop/datasets/lhpr/task/batch_6/4 -mindepth 1 -maxdepth 1 -type d | wc -l
 ```
 
 Find task config files:
 
 ```bash
-find data/lhpr_extracted/task/batch_6 -name "config.json" | head -20
+find /home/js/Desktop/datasets/lhpr/task/batch_6 -name "config.json" | head -20
 ```
 
 Find full trajectory records:
 
 ```bash
-find data/lhpr_extracted/task/batch_6 -name "task.json" | head -20
+find /home/js/Desktop/datasets/lhpr/task/batch_6 -name "task.json" | head -20
 ```
 
 Count saved step-task JSONs inside task folders:
 
 ```bash
-find data/lhpr_extracted/task/batch_6 -path "*/success/trial_1/*.json" ! -name "task.json" | wc -l
+find /home/js/Desktop/datasets/lhpr/task/batch_6 -path "*/success/trial_1/*.json" ! -name "task.json" | wc -l
 ```
 
 Count collected step-task JSONs:
 
 ```bash
-find data/lhpr_extracted/step_task/batch_6 -name "*.json" | wc -l
+find /home/js/Desktop/datasets/lhpr/step_task/batch_6 -name "*.json" | wc -l
 ```
 
 Check one trial folder:
 
 ```bash
-find "data/lhpr_extracted/task/batch_6/2/Bring the toy from the bathroom to the table in the laundry room/success/trial_1" -maxdepth 1 -type d | head -30
+find "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Bring the toy from the bathroom to the table in the laundry room/success/trial_1" -maxdepth 1 -type d | head -30
 ```
 
 ---

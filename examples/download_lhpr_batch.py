@@ -10,7 +10,7 @@ files_to_download = [
     "episode_task.zip",  # very small, useful later
 ]
 
-output_dir = Path("data/lhpr_raw")
+output_dir = Path("/home/js/Desktop/datasets/lhpr_raw")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 for file_name in files_to_download:

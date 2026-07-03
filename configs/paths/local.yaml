@@ -1,10 +1,10 @@
 project_root: "."
 
-lhpr_task_root: "data/lhpr_extracted/task"
-lhpr_step_task_root: "data/lhpr_extracted/step_task"
-lhpr_episode_task_root: "data/lhpr_extracted/episode_task"
+lhpr_task_root: "/home/js/Desktop/datasets/lhpr/task"
+lhpr_step_task_root: "/home/js/Desktop/datasets/lhpr/step_task"
+lhpr_episode_task_root: "/home/js/Desktop/datasets/lhpr/episode_task"
 
-hm3d_root: "data/scene_datasets/hm3d"
+hm3d_root: "/home/js/Desktop/datasets/hm3d"
 
 output_root: "outputs"
 report_root: "outputs/reports"

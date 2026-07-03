@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-BATCH_ROOT = Path("data/lhpr_extracted/task/batch_6")
-HM3D_ROOT = Path("data/scene_datasets/hm3d")
+BATCH_ROOT = Path("/home/js/Desktop/datasets/lhpr/task/batch_6")
+HM3D_ROOT = Path("/home/js/Desktop/datasets/hm3d")
 
 # Collect all local HM3D scene IDs from folder names
 local_scene_ids = set()

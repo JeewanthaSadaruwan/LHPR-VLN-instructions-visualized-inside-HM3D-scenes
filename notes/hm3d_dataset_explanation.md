@@ -61,7 +61,7 @@ Meaning:
 In this workspace, most of the local scene files are under:
 
 ```text
-data/scene_datasets/hm3d/val/
+/home/js/Desktop/datasets/hm3d/val/
 ```
 
 So this project is mainly using validation scenes.
@@ -73,7 +73,7 @@ So this project is mainly using validation scenes.
 Example:
 
 ```text
-data/scene_datasets/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb
+/home/js/Desktop/datasets/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb
 ```
 
 This is the main 3D scene model.
@@ -179,7 +179,7 @@ Simple meaning:
 This project has:
 
 ```text
-data/scene_datasets/hm3d/hm3d_annotated_basis.scene_dataset_config.json
+/home/js/Desktop/datasets/hm3d/hm3d_annotated_basis.scene_dataset_config.json
 ```
 
 This file tells Habitat how the HM3D dataset is organized.
@@ -442,7 +442,7 @@ python examples/render_hm3d_scene.py
 Render a different scene by setting `SCENE`:
 
 ```bash
-SCENE="data/scene_datasets/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb" \
+SCENE="/home/js/Desktop/datasets/hm3d/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb" \
 python examples/render_hm3d_scene.py
 ```
 

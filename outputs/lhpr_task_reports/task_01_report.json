@@ -1,6 +1,6 @@
 {
   "selected_index": 1,
-  "task_dir": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room",
+  "task_dir": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room",
   "category": "2",
   "full_instruction": "Could you take the kettle from the kitchen and place it on the coffee table in the living room",
   "scene_id": "00843-DYehNKdT76V",
@@ -29,21 +29,21 @@
   "expected_move_to_count": 2,
   "hm3d_scene_assets": {
     "all_matches": [
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V",
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb",
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh",
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.glb",
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.txt"
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V",
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb",
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh",
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.glb",
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.txt"
     ],
     "glb_files": [
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb",
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.glb"
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.glb",
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.glb"
     ],
     "navmesh_files": [
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh"
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.basis.navmesh"
     ],
     "semantic_files": [
-      "data/scene_datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.txt"
+      "/home/js/Desktop/datasets/hm3d/val/00843-DYehNKdT76V/DYehNKdT76V.semantic.txt"
     ],
     "config_files": []
   },
@@ -52,9 +52,9 @@
   "step_task_jsons": [
     {
       "file": "Move forward through the hallway, and then turn left at the doorway, continue ahead into the room, m.json",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/Move forward through the hallway, and then turn left at the doorway, continue ahead into the room, m.json",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/Move forward through the hallway, and then turn left at the doorway, continue ahead into the room, m.json",
       "exists_in_step_task_folder": true,
-      "indexed_path": "data/lhpr_extracted/step_task/batch_6/Move forward through the hallway, and then turn left at the doorway, continue ahead into the room, m.json",
+      "indexed_path": "/home/js/Desktop/datasets/lhpr/step_task/batch_6/Move forward through the hallway, and then turn left at the doorway, continue ahead into the room, m.json",
       "target": [
         "kettle"
       ],
@@ -74,9 +74,9 @@
     },
     {
       "file": "Move forward through the living room and turn right at the balustrade, then continue ahead through t.json",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/Move forward through the living room and turn right at the balustrade, then continue ahead through t.json",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/Move forward through the living room and turn right at the balustrade, then continue ahead through t.json",
       "exists_in_step_task_folder": true,
-      "indexed_path": "data/lhpr_extracted/step_task/batch_6/Move forward through the living room and turn right at the balustrade, then continue ahead through t.json",
+      "indexed_path": "/home/js/Desktop/datasets/lhpr/step_task/batch_6/Move forward through the living room and turn right at the balustrade, then continue ahead through t.json",
       "target": [
         "coffee table"
       ],
@@ -98,7 +98,7 @@
   "action_step_folders": [
     {
       "folder": "-1_stop_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/-1_stop_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/-1_stop_for_kettle",
       "parsed": {
         "raw": "-1_stop_for_kettle",
         "step": -1,
@@ -117,7 +117,7 @@
     },
     {
       "folder": "0_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/0_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/0_turn_left_for_kettle",
       "parsed": {
         "raw": "0_turn_left_for_kettle",
         "step": 0,
@@ -136,7 +136,7 @@
     },
     {
       "folder": "1_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/1_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/1_turn_left_for_kettle",
       "parsed": {
         "raw": "1_turn_left_for_kettle",
         "step": 1,
@@ -155,7 +155,7 @@
     },
     {
       "folder": "2_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/2_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/2_turn_left_for_kettle",
       "parsed": {
         "raw": "2_turn_left_for_kettle",
         "step": 2,
@@ -174,7 +174,7 @@
     },
     {
       "folder": "3_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/3_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/3_move_forward_for_kettle",
       "parsed": {
         "raw": "3_move_forward_for_kettle",
         "step": 3,
@@ -193,7 +193,7 @@
     },
     {
       "folder": "4_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/4_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/4_move_forward_for_kettle",
       "parsed": {
         "raw": "4_move_forward_for_kettle",
         "step": 4,
@@ -212,7 +212,7 @@
     },
     {
       "folder": "5_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/5_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/5_move_forward_for_kettle",
       "parsed": {
         "raw": "5_move_forward_for_kettle",
         "step": 5,
@@ -231,7 +231,7 @@
     },
     {
       "folder": "6_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/6_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/6_move_forward_for_kettle",
       "parsed": {
         "raw": "6_move_forward_for_kettle",
         "step": 6,
@@ -250,7 +250,7 @@
     },
     {
       "folder": "7_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/7_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/7_move_forward_for_kettle",
       "parsed": {
         "raw": "7_move_forward_for_kettle",
         "step": 7,
@@ -269,7 +269,7 @@
     },
     {
       "folder": "8_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/8_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/8_turn_left_for_kettle",
       "parsed": {
         "raw": "8_turn_left_for_kettle",
         "step": 8,
@@ -288,7 +288,7 @@
     },
     {
       "folder": "9_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/9_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/9_move_forward_for_kettle",
       "parsed": {
         "raw": "9_move_forward_for_kettle",
         "step": 9,
@@ -307,7 +307,7 @@
     },
     {
       "folder": "10_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/10_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/10_turn_left_for_kettle",
       "parsed": {
         "raw": "10_turn_left_for_kettle",
         "step": 10,
@@ -326,7 +326,7 @@
     },
     {
       "folder": "11_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/11_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/11_move_forward_for_kettle",
       "parsed": {
         "raw": "11_move_forward_for_kettle",
         "step": 11,
@@ -345,7 +345,7 @@
     },
     {
       "folder": "12_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/12_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/12_move_forward_for_kettle",
       "parsed": {
         "raw": "12_move_forward_for_kettle",
         "step": 12,
@@ -364,7 +364,7 @@
     },
     {
       "folder": "13_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/13_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/13_turn_left_for_kettle",
       "parsed": {
         "raw": "13_turn_left_for_kettle",
         "step": 13,
@@ -383,7 +383,7 @@
     },
     {
       "folder": "14_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/14_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/14_move_forward_for_kettle",
       "parsed": {
         "raw": "14_move_forward_for_kettle",
         "step": 14,
@@ -402,7 +402,7 @@
     },
     {
       "folder": "15_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/15_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/15_move_forward_for_kettle",
       "parsed": {
         "raw": "15_move_forward_for_kettle",
         "step": 15,
@@ -421,7 +421,7 @@
     },
     {
       "folder": "16_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/16_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/16_move_forward_for_kettle",
       "parsed": {
         "raw": "16_move_forward_for_kettle",
         "step": 16,
@@ -440,7 +440,7 @@
     },
     {
       "folder": "17_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/17_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/17_move_forward_for_kettle",
       "parsed": {
         "raw": "17_move_forward_for_kettle",
         "step": 17,
@@ -459,7 +459,7 @@
     },
     {
       "folder": "18_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/18_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/18_move_forward_for_kettle",
       "parsed": {
         "raw": "18_move_forward_for_kettle",
         "step": 18,
@@ -478,7 +478,7 @@
     },
     {
       "folder": "19_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/19_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/19_move_forward_for_kettle",
       "parsed": {
         "raw": "19_move_forward_for_kettle",
         "step": 19,
@@ -497,7 +497,7 @@
     },
     {
       "folder": "20_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/20_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/20_move_forward_for_kettle",
       "parsed": {
         "raw": "20_move_forward_for_kettle",
         "step": 20,
@@ -516,7 +516,7 @@
     },
     {
       "folder": "21_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/21_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/21_move_forward_for_kettle",
       "parsed": {
         "raw": "21_move_forward_for_kettle",
         "step": 21,
@@ -535,7 +535,7 @@
     },
     {
       "folder": "22_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/22_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/22_move_forward_for_kettle",
       "parsed": {
         "raw": "22_move_forward_for_kettle",
         "step": 22,
@@ -554,7 +554,7 @@
     },
     {
       "folder": "23_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/23_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/23_move_forward_for_kettle",
       "parsed": {
         "raw": "23_move_forward_for_kettle",
         "step": 23,
@@ -573,7 +573,7 @@
     },
     {
       "folder": "24_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/24_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/24_move_forward_for_kettle",
       "parsed": {
         "raw": "24_move_forward_for_kettle",
         "step": 24,
@@ -592,7 +592,7 @@
     },
     {
       "folder": "25_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/25_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/25_move_forward_for_kettle",
       "parsed": {
         "raw": "25_move_forward_for_kettle",
         "step": 25,
@@ -611,7 +611,7 @@
     },
     {
       "folder": "26_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/26_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/26_move_forward_for_kettle",
       "parsed": {
         "raw": "26_move_forward_for_kettle",
         "step": 26,
@@ -630,7 +630,7 @@
     },
     {
       "folder": "27_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/27_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/27_move_forward_for_kettle",
       "parsed": {
         "raw": "27_move_forward_for_kettle",
         "step": 27,
@@ -649,7 +649,7 @@
     },
     {
       "folder": "28_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/28_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/28_move_forward_for_kettle",
       "parsed": {
         "raw": "28_move_forward_for_kettle",
         "step": 28,
@@ -668,7 +668,7 @@
     },
     {
       "folder": "29_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/29_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/29_move_forward_for_kettle",
       "parsed": {
         "raw": "29_move_forward_for_kettle",
         "step": 29,
@@ -687,7 +687,7 @@
     },
     {
       "folder": "30_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/30_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/30_move_forward_for_kettle",
       "parsed": {
         "raw": "30_move_forward_for_kettle",
         "step": 30,
@@ -706,7 +706,7 @@
     },
     {
       "folder": "31_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/31_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/31_turn_left_for_kettle",
       "parsed": {
         "raw": "31_turn_left_for_kettle",
         "step": 31,
@@ -725,7 +725,7 @@
     },
     {
       "folder": "32_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/32_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/32_turn_left_for_kettle",
       "parsed": {
         "raw": "32_turn_left_for_kettle",
         "step": 32,
@@ -744,7 +744,7 @@
     },
     {
       "folder": "33_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/33_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/33_turn_left_for_kettle",
       "parsed": {
         "raw": "33_turn_left_for_kettle",
         "step": 33,
@@ -763,7 +763,7 @@
     },
     {
       "folder": "34_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/34_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/34_move_forward_for_kettle",
       "parsed": {
         "raw": "34_move_forward_for_kettle",
         "step": 34,
@@ -782,7 +782,7 @@
     },
     {
       "folder": "35_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/35_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/35_move_forward_for_kettle",
       "parsed": {
         "raw": "35_move_forward_for_kettle",
         "step": 35,
@@ -801,7 +801,7 @@
     },
     {
       "folder": "36_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/36_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/36_move_forward_for_kettle",
       "parsed": {
         "raw": "36_move_forward_for_kettle",
         "step": 36,
@@ -820,7 +820,7 @@
     },
     {
       "folder": "37_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/37_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/37_move_forward_for_kettle",
       "parsed": {
         "raw": "37_move_forward_for_kettle",
         "step": 37,
@@ -839,7 +839,7 @@
     },
     {
       "folder": "38_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/38_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/38_move_forward_for_kettle",
       "parsed": {
         "raw": "38_move_forward_for_kettle",
         "step": 38,
@@ -858,7 +858,7 @@
     },
     {
       "folder": "39_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/39_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/39_move_forward_for_kettle",
       "parsed": {
         "raw": "39_move_forward_for_kettle",
         "step": 39,
@@ -877,7 +877,7 @@
     },
     {
       "folder": "40_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/40_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/40_move_forward_for_kettle",
       "parsed": {
         "raw": "40_move_forward_for_kettle",
         "step": 40,
@@ -896,7 +896,7 @@
     },
     {
       "folder": "41_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/41_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/41_move_forward_for_kettle",
       "parsed": {
         "raw": "41_move_forward_for_kettle",
         "step": 41,
@@ -915,7 +915,7 @@
     },
     {
       "folder": "42_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/42_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/42_move_forward_for_kettle",
       "parsed": {
         "raw": "42_move_forward_for_kettle",
         "step": 42,
@@ -934,7 +934,7 @@
     },
     {
       "folder": "43_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/43_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/43_move_forward_for_kettle",
       "parsed": {
         "raw": "43_move_forward_for_kettle",
         "step": 43,
@@ -953,7 +953,7 @@
     },
     {
       "folder": "44_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/44_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/44_move_forward_for_kettle",
       "parsed": {
         "raw": "44_move_forward_for_kettle",
         "step": 44,
@@ -972,7 +972,7 @@
     },
     {
       "folder": "45_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/45_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/45_move_forward_for_kettle",
       "parsed": {
         "raw": "45_move_forward_for_kettle",
         "step": 45,
@@ -991,7 +991,7 @@
     },
     {
       "folder": "46_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/46_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/46_move_forward_for_kettle",
       "parsed": {
         "raw": "46_move_forward_for_kettle",
         "step": 46,
@@ -1010,7 +1010,7 @@
     },
     {
       "folder": "47_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/47_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/47_turn_left_for_kettle",
       "parsed": {
         "raw": "47_turn_left_for_kettle",
         "step": 47,
@@ -1029,7 +1029,7 @@
     },
     {
       "folder": "48_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/48_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/48_move_forward_for_kettle",
       "parsed": {
         "raw": "48_move_forward_for_kettle",
         "step": 48,
@@ -1048,7 +1048,7 @@
     },
     {
       "folder": "49_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/49_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/49_move_forward_for_kettle",
       "parsed": {
         "raw": "49_move_forward_for_kettle",
         "step": 49,
@@ -1067,7 +1067,7 @@
     },
     {
       "folder": "50_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/50_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/50_move_forward_for_kettle",
       "parsed": {
         "raw": "50_move_forward_for_kettle",
         "step": 50,
@@ -1086,7 +1086,7 @@
     },
     {
       "folder": "51_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/51_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/51_move_forward_for_kettle",
       "parsed": {
         "raw": "51_move_forward_for_kettle",
         "step": 51,
@@ -1105,7 +1105,7 @@
     },
     {
       "folder": "52_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/52_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/52_move_forward_for_kettle",
       "parsed": {
         "raw": "52_move_forward_for_kettle",
         "step": 52,
@@ -1124,7 +1124,7 @@
     },
     {
       "folder": "53_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/53_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/53_move_forward_for_kettle",
       "parsed": {
         "raw": "53_move_forward_for_kettle",
         "step": 53,
@@ -1143,7 +1143,7 @@
     },
     {
       "folder": "54_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/54_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/54_move_forward_for_kettle",
       "parsed": {
         "raw": "54_move_forward_for_kettle",
         "step": 54,
@@ -1162,7 +1162,7 @@
     },
     {
       "folder": "55_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/55_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/55_move_forward_for_kettle",
       "parsed": {
         "raw": "55_move_forward_for_kettle",
         "step": 55,
@@ -1181,7 +1181,7 @@
     },
     {
       "folder": "56_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/56_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/56_move_forward_for_kettle",
       "parsed": {
         "raw": "56_move_forward_for_kettle",
         "step": 56,
@@ -1200,7 +1200,7 @@
     },
     {
       "folder": "57_turn_right_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/57_turn_right_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/57_turn_right_for_kettle",
       "parsed": {
         "raw": "57_turn_right_for_kettle",
         "step": 57,
@@ -1219,7 +1219,7 @@
     },
     {
       "folder": "58_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/58_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/58_move_forward_for_kettle",
       "parsed": {
         "raw": "58_move_forward_for_kettle",
         "step": 58,
@@ -1238,7 +1238,7 @@
     },
     {
       "folder": "59_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/59_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/59_turn_left_for_kettle",
       "parsed": {
         "raw": "59_turn_left_for_kettle",
         "step": 59,
@@ -1257,7 +1257,7 @@
     },
     {
       "folder": "60_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/60_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/60_move_forward_for_kettle",
       "parsed": {
         "raw": "60_move_forward_for_kettle",
         "step": 60,
@@ -1276,7 +1276,7 @@
     },
     {
       "folder": "61_turn_right_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/61_turn_right_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/61_turn_right_for_kettle",
       "parsed": {
         "raw": "61_turn_right_for_kettle",
         "step": 61,
@@ -1295,7 +1295,7 @@
     },
     {
       "folder": "62_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/62_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/62_move_forward_for_kettle",
       "parsed": {
         "raw": "62_move_forward_for_kettle",
         "step": 62,
@@ -1314,7 +1314,7 @@
     },
     {
       "folder": "63_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/63_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/63_turn_left_for_kettle",
       "parsed": {
         "raw": "63_turn_left_for_kettle",
         "step": 63,
@@ -1333,7 +1333,7 @@
     },
     {
       "folder": "64_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/64_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/64_move_forward_for_kettle",
       "parsed": {
         "raw": "64_move_forward_for_kettle",
         "step": 64,
@@ -1352,7 +1352,7 @@
     },
     {
       "folder": "65_turn_right_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/65_turn_right_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/65_turn_right_for_kettle",
       "parsed": {
         "raw": "65_turn_right_for_kettle",
         "step": 65,
@@ -1371,7 +1371,7 @@
     },
     {
       "folder": "66_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/66_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/66_move_forward_for_kettle",
       "parsed": {
         "raw": "66_move_forward_for_kettle",
         "step": 66,
@@ -1390,7 +1390,7 @@
     },
     {
       "folder": "67_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/67_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/67_move_forward_for_kettle",
       "parsed": {
         "raw": "67_move_forward_for_kettle",
         "step": 67,
@@ -1409,7 +1409,7 @@
     },
     {
       "folder": "68_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/68_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/68_move_forward_for_kettle",
       "parsed": {
         "raw": "68_move_forward_for_kettle",
         "step": 68,
@@ -1428,7 +1428,7 @@
     },
     {
       "folder": "69_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/69_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/69_move_forward_for_kettle",
       "parsed": {
         "raw": "69_move_forward_for_kettle",
         "step": 69,
@@ -1447,7 +1447,7 @@
     },
     {
       "folder": "70_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/70_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/70_turn_left_for_kettle",
       "parsed": {
         "raw": "70_turn_left_for_kettle",
         "step": 70,
@@ -1466,7 +1466,7 @@
     },
     {
       "folder": "71_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/71_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/71_move_forward_for_kettle",
       "parsed": {
         "raw": "71_move_forward_for_kettle",
         "step": 71,
@@ -1485,7 +1485,7 @@
     },
     {
       "folder": "72_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/72_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/72_move_forward_for_kettle",
       "parsed": {
         "raw": "72_move_forward_for_kettle",
         "step": 72,
@@ -1504,7 +1504,7 @@
     },
     {
       "folder": "73_turn_right_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/73_turn_right_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/73_turn_right_for_kettle",
       "parsed": {
         "raw": "73_turn_right_for_kettle",
         "step": 73,
@@ -1523,7 +1523,7 @@
     },
     {
       "folder": "74_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/74_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/74_move_forward_for_kettle",
       "parsed": {
         "raw": "74_move_forward_for_kettle",
         "step": 74,
@@ -1542,7 +1542,7 @@
     },
     {
       "folder": "75_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/75_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/75_move_forward_for_kettle",
       "parsed": {
         "raw": "75_move_forward_for_kettle",
         "step": 75,
@@ -1561,7 +1561,7 @@
     },
     {
       "folder": "76_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/76_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/76_move_forward_for_kettle",
       "parsed": {
         "raw": "76_move_forward_for_kettle",
         "step": 76,
@@ -1580,7 +1580,7 @@
     },
     {
       "folder": "77_turn_left_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/77_turn_left_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/77_turn_left_for_kettle",
       "parsed": {
         "raw": "77_turn_left_for_kettle",
         "step": 77,
@@ -1599,7 +1599,7 @@
     },
     {
       "folder": "78_stop_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/78_stop_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/78_stop_for_kettle",
       "parsed": {
         "raw": "78_stop_for_kettle",
         "step": 78,
@@ -1618,7 +1618,7 @@
     },
     {
       "folder": "78_move_forward_for_kettle",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/78_move_forward_for_kettle",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/78_move_forward_for_kettle",
       "parsed": {
         "raw": "78_move_forward_for_kettle",
         "step": 78,
@@ -1637,7 +1637,7 @@
     },
     {
       "folder": "79_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/79_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/79_turn_left_for_coffee table",
       "parsed": {
         "raw": "79_turn_left_for_coffee table",
         "step": 79,
@@ -1656,7 +1656,7 @@
     },
     {
       "folder": "80_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/80_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/80_turn_left_for_coffee table",
       "parsed": {
         "raw": "80_turn_left_for_coffee table",
         "step": 80,
@@ -1675,7 +1675,7 @@
     },
     {
       "folder": "81_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/81_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/81_turn_left_for_coffee table",
       "parsed": {
         "raw": "81_turn_left_for_coffee table",
         "step": 81,
@@ -1694,7 +1694,7 @@
     },
     {
       "folder": "82_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/82_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/82_turn_left_for_coffee table",
       "parsed": {
         "raw": "82_turn_left_for_coffee table",
         "step": 82,
@@ -1713,7 +1713,7 @@
     },
     {
       "folder": "83_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/83_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/83_turn_left_for_coffee table",
       "parsed": {
         "raw": "83_turn_left_for_coffee table",
         "step": 83,
@@ -1732,7 +1732,7 @@
     },
     {
       "folder": "84_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/84_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/84_turn_left_for_coffee table",
       "parsed": {
         "raw": "84_turn_left_for_coffee table",
         "step": 84,
@@ -1751,7 +1751,7 @@
     },
     {
       "folder": "85_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/85_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/85_move_forward_for_coffee table",
       "parsed": {
         "raw": "85_move_forward_for_coffee table",
         "step": 85,
@@ -1770,7 +1770,7 @@
     },
     {
       "folder": "86_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/86_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/86_turn_right_for_coffee table",
       "parsed": {
         "raw": "86_turn_right_for_coffee table",
         "step": 86,
@@ -1789,7 +1789,7 @@
     },
     {
       "folder": "87_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/87_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/87_move_forward_for_coffee table",
       "parsed": {
         "raw": "87_move_forward_for_coffee table",
         "step": 87,
@@ -1808,7 +1808,7 @@
     },
     {
       "folder": "88_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/88_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/88_move_forward_for_coffee table",
       "parsed": {
         "raw": "88_move_forward_for_coffee table",
         "step": 88,
@@ -1827,7 +1827,7 @@
     },
     {
       "folder": "89_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/89_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/89_move_forward_for_coffee table",
       "parsed": {
         "raw": "89_move_forward_for_coffee table",
         "step": 89,
@@ -1846,7 +1846,7 @@
     },
     {
       "folder": "90_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/90_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/90_move_forward_for_coffee table",
       "parsed": {
         "raw": "90_move_forward_for_coffee table",
         "step": 90,
@@ -1865,7 +1865,7 @@
     },
     {
       "folder": "91_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/91_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/91_move_forward_for_coffee table",
       "parsed": {
         "raw": "91_move_forward_for_coffee table",
         "step": 91,
@@ -1884,7 +1884,7 @@
     },
     {
       "folder": "92_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/92_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/92_turn_left_for_coffee table",
       "parsed": {
         "raw": "92_turn_left_for_coffee table",
         "step": 92,
@@ -1903,7 +1903,7 @@
     },
     {
       "folder": "93_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/93_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/93_move_forward_for_coffee table",
       "parsed": {
         "raw": "93_move_forward_for_coffee table",
         "step": 93,
@@ -1922,7 +1922,7 @@
     },
     {
       "folder": "94_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/94_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/94_move_forward_for_coffee table",
       "parsed": {
         "raw": "94_move_forward_for_coffee table",
         "step": 94,
@@ -1941,7 +1941,7 @@
     },
     {
       "folder": "95_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/95_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/95_turn_right_for_coffee table",
       "parsed": {
         "raw": "95_turn_right_for_coffee table",
         "step": 95,
@@ -1960,7 +1960,7 @@
     },
     {
       "folder": "96_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/96_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/96_move_forward_for_coffee table",
       "parsed": {
         "raw": "96_move_forward_for_coffee table",
         "step": 96,
@@ -1979,7 +1979,7 @@
     },
     {
       "folder": "97_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/97_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/97_move_forward_for_coffee table",
       "parsed": {
         "raw": "97_move_forward_for_coffee table",
         "step": 97,
@@ -1998,7 +1998,7 @@
     },
     {
       "folder": "98_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/98_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/98_turn_left_for_coffee table",
       "parsed": {
         "raw": "98_turn_left_for_coffee table",
         "step": 98,
@@ -2017,7 +2017,7 @@
     },
     {
       "folder": "99_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/99_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/99_move_forward_for_coffee table",
       "parsed": {
         "raw": "99_move_forward_for_coffee table",
         "step": 99,
@@ -2036,7 +2036,7 @@
     },
     {
       "folder": "100_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/100_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/100_turn_right_for_coffee table",
       "parsed": {
         "raw": "100_turn_right_for_coffee table",
         "step": 100,
@@ -2055,7 +2055,7 @@
     },
     {
       "folder": "101_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/101_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/101_move_forward_for_coffee table",
       "parsed": {
         "raw": "101_move_forward_for_coffee table",
         "step": 101,
@@ -2074,7 +2074,7 @@
     },
     {
       "folder": "102_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/102_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/102_turn_left_for_coffee table",
       "parsed": {
         "raw": "102_turn_left_for_coffee table",
         "step": 102,
@@ -2093,7 +2093,7 @@
     },
     {
       "folder": "103_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/103_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/103_move_forward_for_coffee table",
       "parsed": {
         "raw": "103_move_forward_for_coffee table",
         "step": 103,
@@ -2112,7 +2112,7 @@
     },
     {
       "folder": "104_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/104_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/104_move_forward_for_coffee table",
       "parsed": {
         "raw": "104_move_forward_for_coffee table",
         "step": 104,
@@ -2131,7 +2131,7 @@
     },
     {
       "folder": "105_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/105_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/105_move_forward_for_coffee table",
       "parsed": {
         "raw": "105_move_forward_for_coffee table",
         "step": 105,
@@ -2150,7 +2150,7 @@
     },
     {
       "folder": "106_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/106_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/106_move_forward_for_coffee table",
       "parsed": {
         "raw": "106_move_forward_for_coffee table",
         "step": 106,
@@ -2169,7 +2169,7 @@
     },
     {
       "folder": "107_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/107_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/107_move_forward_for_coffee table",
       "parsed": {
         "raw": "107_move_forward_for_coffee table",
         "step": 107,
@@ -2188,7 +2188,7 @@
     },
     {
       "folder": "108_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/108_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/108_move_forward_for_coffee table",
       "parsed": {
         "raw": "108_move_forward_for_coffee table",
         "step": 108,
@@ -2207,7 +2207,7 @@
     },
     {
       "folder": "109_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/109_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/109_move_forward_for_coffee table",
       "parsed": {
         "raw": "109_move_forward_for_coffee table",
         "step": 109,
@@ -2226,7 +2226,7 @@
     },
     {
       "folder": "110_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/110_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/110_move_forward_for_coffee table",
       "parsed": {
         "raw": "110_move_forward_for_coffee table",
         "step": 110,
@@ -2245,7 +2245,7 @@
     },
     {
       "folder": "111_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/111_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/111_turn_right_for_coffee table",
       "parsed": {
         "raw": "111_turn_right_for_coffee table",
         "step": 111,
@@ -2264,7 +2264,7 @@
     },
     {
       "folder": "112_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/112_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/112_move_forward_for_coffee table",
       "parsed": {
         "raw": "112_move_forward_for_coffee table",
         "step": 112,
@@ -2283,7 +2283,7 @@
     },
     {
       "folder": "113_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/113_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/113_move_forward_for_coffee table",
       "parsed": {
         "raw": "113_move_forward_for_coffee table",
         "step": 113,
@@ -2302,7 +2302,7 @@
     },
     {
       "folder": "114_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/114_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/114_move_forward_for_coffee table",
       "parsed": {
         "raw": "114_move_forward_for_coffee table",
         "step": 114,
@@ -2321,7 +2321,7 @@
     },
     {
       "folder": "115_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/115_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/115_move_forward_for_coffee table",
       "parsed": {
         "raw": "115_move_forward_for_coffee table",
         "step": 115,
@@ -2340,7 +2340,7 @@
     },
     {
       "folder": "116_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/116_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/116_move_forward_for_coffee table",
       "parsed": {
         "raw": "116_move_forward_for_coffee table",
         "step": 116,
@@ -2359,7 +2359,7 @@
     },
     {
       "folder": "117_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/117_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/117_move_forward_for_coffee table",
       "parsed": {
         "raw": "117_move_forward_for_coffee table",
         "step": 117,
@@ -2378,7 +2378,7 @@
     },
     {
       "folder": "118_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/118_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/118_move_forward_for_coffee table",
       "parsed": {
         "raw": "118_move_forward_for_coffee table",
         "step": 118,
@@ -2397,7 +2397,7 @@
     },
     {
       "folder": "119_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/119_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/119_turn_right_for_coffee table",
       "parsed": {
         "raw": "119_turn_right_for_coffee table",
         "step": 119,
@@ -2416,7 +2416,7 @@
     },
     {
       "folder": "120_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/120_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/120_turn_right_for_coffee table",
       "parsed": {
         "raw": "120_turn_right_for_coffee table",
         "step": 120,
@@ -2435,7 +2435,7 @@
     },
     {
       "folder": "121_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/121_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/121_move_forward_for_coffee table",
       "parsed": {
         "raw": "121_move_forward_for_coffee table",
         "step": 121,
@@ -2454,7 +2454,7 @@
     },
     {
       "folder": "122_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/122_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/122_turn_right_for_coffee table",
       "parsed": {
         "raw": "122_turn_right_for_coffee table",
         "step": 122,
@@ -2473,7 +2473,7 @@
     },
     {
       "folder": "123_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/123_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/123_move_forward_for_coffee table",
       "parsed": {
         "raw": "123_move_forward_for_coffee table",
         "step": 123,
@@ -2492,7 +2492,7 @@
     },
     {
       "folder": "124_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/124_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/124_turn_left_for_coffee table",
       "parsed": {
         "raw": "124_turn_left_for_coffee table",
         "step": 124,
@@ -2511,7 +2511,7 @@
     },
     {
       "folder": "125_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/125_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/125_move_forward_for_coffee table",
       "parsed": {
         "raw": "125_move_forward_for_coffee table",
         "step": 125,
@@ -2530,7 +2530,7 @@
     },
     {
       "folder": "126_turn_right_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/126_turn_right_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/126_turn_right_for_coffee table",
       "parsed": {
         "raw": "126_turn_right_for_coffee table",
         "step": 126,
@@ -2549,7 +2549,7 @@
     },
     {
       "folder": "127_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/127_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/127_move_forward_for_coffee table",
       "parsed": {
         "raw": "127_move_forward_for_coffee table",
         "step": 127,
@@ -2568,7 +2568,7 @@
     },
     {
       "folder": "128_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/128_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/128_move_forward_for_coffee table",
       "parsed": {
         "raw": "128_move_forward_for_coffee table",
         "step": 128,
@@ -2587,7 +2587,7 @@
     },
     {
       "folder": "129_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/129_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/129_move_forward_for_coffee table",
       "parsed": {
         "raw": "129_move_forward_for_coffee table",
         "step": 129,
@@ -2606,7 +2606,7 @@
     },
     {
       "folder": "130_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/130_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/130_move_forward_for_coffee table",
       "parsed": {
         "raw": "130_move_forward_for_coffee table",
         "step": 130,
@@ -2625,7 +2625,7 @@
     },
     {
       "folder": "131_turn_left_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/131_turn_left_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/131_turn_left_for_coffee table",
       "parsed": {
         "raw": "131_turn_left_for_coffee table",
         "step": 131,
@@ -2644,7 +2644,7 @@
     },
     {
       "folder": "132_move_forward_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/132_move_forward_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/132_move_forward_for_coffee table",
       "parsed": {
         "raw": "132_move_forward_for_coffee table",
         "step": 132,
@@ -2663,7 +2663,7 @@
     },
     {
       "folder": "132_stop_for_coffee table",
-      "path": "data/lhpr_extracted/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/132_stop_for_coffee table",
+      "path": "/home/js/Desktop/datasets/lhpr/task/batch_6/2/Could you take the kettle from the kitchen and place it on the coffee table in the living room/success/trial_1/132_stop_for_coffee table",
       "parsed": {
         "raw": "132_stop_for_coffee table",
         "step": 132,

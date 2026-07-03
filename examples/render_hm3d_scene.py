@@ -8,7 +8,7 @@ from habitat_sim.utils.common import quat_from_angle_axis
 
 
 # Default scene path
-DEFAULT_SCENE = "data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb"
+DEFAULT_SCENE = "/home/js/Desktop/datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb"
 
 # Use terminal SCENE variable if provided, otherwise use DEFAULT_SCENE
 scene_path = os.environ.get("SCENE", DEFAULT_SCENE)

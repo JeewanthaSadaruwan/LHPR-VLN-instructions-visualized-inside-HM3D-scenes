@@ -3,9 +3,9 @@ import json
 from pathlib import Path
 
 
-BATCH_ROOT = Path("data/lhpr_extracted/task/batch_6")
-STEP_TASK_ROOT = Path("data/lhpr_extracted/step_task/batch_6")
-HM3D_ROOT = Path("data/scene_datasets/hm3d")
+BATCH_ROOT = Path("/home/js/Desktop/datasets/lhpr/task/batch_6")
+STEP_TASK_ROOT = Path("/home/js/Desktop/datasets/lhpr/step_task/batch_6")
+HM3D_ROOT = Path("/home/js/Desktop/datasets/hm3d")
 OUTPUT_ROOT = Path("outputs/lhpr_task_reports")
 
 REQUIRED_IMAGES = [

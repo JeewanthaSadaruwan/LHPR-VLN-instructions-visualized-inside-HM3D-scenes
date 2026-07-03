@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-root = Path("data/lhpr_extracted/task/batch_6")
+root = Path("/home/js/Desktop/datasets/lhpr/task/batch_6")
 
 total_tasks = 0
 expected_total = 0
