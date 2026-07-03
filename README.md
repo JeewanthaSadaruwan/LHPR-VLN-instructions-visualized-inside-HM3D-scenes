@@ -251,25 +251,32 @@ The current replay uses a simple Habitat agent, not a visible Spot URDF robot.
 
 ## Installation
 
-Activate your Habitat environment:
+Create or activate a conda environment that already has Habitat-Sim installed.
+Habitat-Sim is best installed with conda because it depends on native graphics/runtime libraries.
 
 ```bash
 conda activate habitat-display
 ```
 
-Install the project in editable mode:
+Recommended Habitat-Sim install style:
+
+```bash
+conda install habitat-sim=0.3.3 -c conda-forge -c aihabitat
+```
+
+Then install the remaining Python packages inside the same environment:
+
+```bash
+pip install -r requirements.txt
+```
+
+Finally, install this project in editable mode:
 
 ```bash
 pip install -e .
 ```
 
-If needed, install required Python packages:
-
-```bash
-pip install pyyaml opencv-python numpy
-```
-
-Habitat-Sim should already be installed in the active environment.
+Important: keep `habitat-sim`, `numpy`, `opencv-python`, `PyYAML`, `huggingface-hub`, and `Pillow` in the same active conda environment.
 
 ---
 

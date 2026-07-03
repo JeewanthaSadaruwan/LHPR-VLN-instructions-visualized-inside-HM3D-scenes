@@ -1,6 +1,18 @@
-habitat-sim
-huggingface-hub
-numpy
-Pillow
-PyYAML
+# Install Habitat-Sim in a conda environment first.
+# Recommended flow:
+#   conda activate habitat-display
+#   conda install habitat-sim=0.3.3 -c conda-forge -c aihabitat
+#   pip install -r requirements.txt
+#
+# habitat-sim is listed here to document the expected version, but conda is
+# usually the more reliable installer for Habitat-Sim and its native runtime.
 
+# Core replay/runtime packages
+habitat-sim==0.3.3
+numpy==1.26.4
+opencv-python==4.11.0.86
+PyYAML==6.0.3
+
+# Dataset download and example utilities
+huggingface-hub==1.8.0
+Pillow==10.4.0
