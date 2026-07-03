@@ -21,23 +21,6 @@ Instruction:
 Could you take the kettle from the kitchen and place it on the coffee table in the living room
 ```
 
----
-
-## Repository Name
-
-```text
-lhpr-vln-hm3d-replay
-```
-
----
-
-## Repository Description
-
-```text
-A lightweight Habitat-Sim replay tool for visualizing LHPR-VLN instructions and saved trajectories inside HM3D scenes.
-```
-
----
 
 ## Project Goal
 
